@@ -27,7 +27,7 @@ import (
 
 func FuzzGetPassword(data []byte) int {
 	original := generate.Read
-	generate.Read = func() func() ([]byte, error) {
+	generate.Read = func(bool) func() ([]byte, error) {
 		return func() ([]byte, error) {
 			return data, nil
 		}

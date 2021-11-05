@@ -140,3 +140,7 @@ cosigned: lint ## Build cosigned binary
 .PHONY: sget
 sget: ## Build sget binary
 	go build -trimpath -o $@ ./cmd/sget
+
+.PHONY: fuzz
+fuzz: ## checks for fuzzing build
+	go-fuzz-build -libfuzzer ./test/
