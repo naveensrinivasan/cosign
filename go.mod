@@ -26,14 +26,14 @@ require (
 	github.com/sigstore/fulcio v0.1.2-0.20211207184413-f4746cc4ff3d
 	github.com/sigstore/rekor v0.3.1-0.20211203233407-3278f72b78bd
 	github.com/sigstore/sigstore v1.0.2-0.20211203233310-c8e7f70eab4e
-	github.com/spf13/cobra v1.2.1
-	github.com/spf13/viper v1.9.0
+	github.com/spf13/cobra v1.3.0
+	github.com/spf13/viper v1.10.0
 	github.com/stretchr/testify v1.7.0
 	github.com/theupdateframework/go-tuf v0.0.0-20211209174453-13f0687177ba
 	github.com/xanzy/go-gitlab v0.52.2
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
-	google.golang.org/api v0.61.0
+	google.golang.org/api v0.62.0
 	k8s.io/api v0.21.7
 	k8s.io/apimachinery v0.21.7
 	k8s.io/client-go v0.21.7
@@ -42,11 +42,7 @@ require (
 )
 
 require (
-	github.com/form3tech-oss/jwt-go v3.2.5+incompatible // indirect
-	github.com/mattn/go-runewidth v0.0.13 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/urfave/cli v1.22.5 // indirect
-	go.opentelemetry.io/contrib v1.2.0 // indirect
-	go.opentelemetry.io/proto/otlp v0.11.0 // indirect
 	k8s.io/klog/v2 v2.30.0 // indirect
 )
