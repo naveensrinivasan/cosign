@@ -21,7 +21,7 @@ require (
 	github.com/google/go-github/v42 v42.0.0
 	github.com/google/trillian v1.4.0
 	github.com/hashicorp/go-cleanhttp v0.5.2
-	github.com/hashicorp/go-retryablehttp v0.7.0
+	github.com/hashicorp/go-retryablehttp v0.7.1
 	github.com/hashicorp/go-rootcerts v1.0.2
 	github.com/hashicorp/go-secure-stdlib/parseutil v0.1.4
 	github.com/hashicorp/yamux v0.0.0-20211028200310-0bc27b27de87
@@ -45,12 +45,12 @@ require (
 	github.com/stretchr/testify v1.7.1
 	github.com/theupdateframework/go-tuf v0.0.0-20220211205608-f0c3294f63b9
 	github.com/titanous/rocacheck v0.0.0-20171023193734-afe73141d399
-	github.com/xanzy/go-gitlab v0.63.0
-	golang.org/x/net v0.0.0-20220412020605-290c469a71a5
+	github.com/xanzy/go-gitlab v0.69.0
+	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5
 	golang.org/x/sys v0.0.0-20220412211240-33da011f77ad
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
-	golang.org/x/time v0.0.0-20220224211638-0e9765cccd65
+	golang.org/x/time v0.0.0-20220411224347-583f2d630306
 	google.golang.org/api v0.75.0
 	gopkg.in/square/go-jose.v2 v2.6.0
 	gopkg.in/yaml.v2 v2.4.0
