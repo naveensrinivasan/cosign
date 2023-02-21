@@ -23,7 +23,7 @@ require (
 	github.com/miekg/pkcs11 v1.1.1
 	github.com/mozillazg/docker-credential-acr-helper v0.3.0
 	github.com/open-policy-agent/opa v0.43.0
-	github.com/secure-systems-lab/go-securesystemslib v0.4.0
+	github.com/secure-systems-lab/go-securesystemslib v0.5.0
 	github.com/sigstore/fulcio v0.5.3
 	github.com/sigstore/rekor v0.11.0
 	github.com/sigstore/sigstore v1.4.1-0.20220823190236-c645ceb9d075
@@ -31,7 +31,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.12.0
 	github.com/spiffe/go-spiffe/v2 v2.1.1
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.1
 	github.com/theupdateframework/go-tuf v0.3.1
 	github.com/transparency-dev/merkle v0.0.1
 	github.com/withfig/autocomplete-tools/integrations/cobra v1.2.1
