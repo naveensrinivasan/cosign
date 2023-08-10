@@ -23,7 +23,7 @@ require (
 	github.com/miekg/pkcs11 v1.1.1
 	github.com/mozillazg/docker-credential-acr-helper v0.3.0
 	github.com/open-policy-agent/opa v0.43.0
-	github.com/secure-systems-lab/go-securesystemslib v0.4.0
+	github.com/secure-systems-lab/go-securesystemslib v0.7.0
 	github.com/sigstore/fulcio v0.5.3
 	github.com/sigstore/rekor v0.11.0
 	github.com/sigstore/sigstore v1.4.1-0.20220823190236-c645ceb9d075
@@ -31,15 +31,15 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.12.0
 	github.com/spiffe/go-spiffe/v2 v2.1.1
-	github.com/stretchr/testify v1.8.0
-	github.com/theupdateframework/go-tuf v0.3.1
+	github.com/stretchr/testify v1.8.4
+	github.com/theupdateframework/go-tuf v0.6.0
 	github.com/transparency-dev/merkle v0.0.1
 	github.com/withfig/autocomplete-tools/integrations/cobra v1.2.1
 	github.com/xanzy/go-gitlab v0.73.1
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
+	golang.org/x/crypto v0.11.0
 	golang.org/x/oauth2 v0.0.0-20220822191816-0ebed06d0094
-	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
-	golang.org/x/term v0.0.0-20220526004731-065cf7ba2467
+	golang.org/x/sync v0.1.0
+	golang.org/x/term v0.10.0
 	google.golang.org/api v0.94.0
 	k8s.io/api v0.23.5
 	k8s.io/apimachinery v0.23.5
@@ -122,7 +122,7 @@ require (
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/docker v20.10.17+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
-	github.com/dustin/go-humanize v1.0.0 // indirect
+	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/emicklei/proto v1.6.15 // indirect
 	github.com/envoyproxy/go-control-plane v0.10.2-0.20220325020618-49ff273808a1 // indirect
 	github.com/envoyproxy/protoc-gen-validate v0.6.2 // indirect
@@ -240,7 +240,7 @@ require (
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/subosito/gotenv v1.3.0 // indirect
-	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
+	github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d // indirect
 	github.com/tent/canonical-json-go v0.0.0-20130607151641-96e4ba3a7613 // indirect
 	github.com/thales-e-security/pool v0.0.2 // indirect
 	github.com/titanous/rocacheck v0.0.0-20171023193734-afe73141d399 // indirect
@@ -279,12 +279,12 @@ require (
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.22.0 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/net v0.0.0-20220805013720-a33c5aa5df48 // indirect
-	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 // indirect
-	golang.org/x/text v0.3.8-0.20211004125949-5bd84dd9b33b // indirect
+	golang.org/x/mod v0.8.0 // indirect
+	golang.org/x/net v0.10.0 // indirect
+	golang.org/x/sys v0.10.0 // indirect
+	golang.org/x/text v0.11.0 // indirect
 	golang.org/x/time v0.0.0-20220722155302-e5dcc9cfc0b9 // indirect
-	golang.org/x/tools v0.1.11 // indirect
+	golang.org/x/tools v0.6.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220805133916-01dd62135a58 // indirect
 	google.golang.org/grpc v1.48.0 // indirect
